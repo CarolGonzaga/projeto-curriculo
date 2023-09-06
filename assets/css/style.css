@@ -281,11 +281,20 @@ body {
     }
 
     .habilidades .box {
-        position: relative;
+        font-size: .8em;
         width: 100%;
-        display: inherit;
-        justify-content: center;
-        align-items: center;
+        display: grid;
+        grid-template-columns: 20% 80%;
+        justify-content: space-around;
     }
+}
 
+@media (max-width: 450px) {
+
+    .habilidades .box {
+        font-size: .8em;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
 }
