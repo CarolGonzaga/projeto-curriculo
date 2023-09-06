@@ -1,6 +1,7 @@
 # Projeto - Currículo
 - Meu Segundo Projeto 
-- Currículo Pessoal (Responsivo)
+- Currículo Pessoal
+- Responsivo
 
 <br/>
 
