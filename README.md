@@ -1,5 +1,5 @@
 # Projeto - Currículo
-- Meu Segundo Projeto 
+- Meu __Segundo__ Projeto 
 - Currículo Pessoal
 - Responsivo
 
