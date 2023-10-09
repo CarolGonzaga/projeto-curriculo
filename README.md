@@ -1,7 +1,12 @@
 # Projeto - Currículo
-- Meu __Segundo__ Projeto 
+- Meu **Segundo** Projeto 
 - Currículo Pessoal
 - Responsivo
+
+<br/>
+
+# Descrição:
+"Meu Primeiro Portfólio" é um projeto web pessoal que apresenta as minhas habilidades de desenvolvimento web e para fornece informações sobre o meu perfil e experiência.
 
 <br/>
 
