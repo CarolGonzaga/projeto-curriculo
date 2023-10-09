@@ -1,116 +1,291 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo/style.css">
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
-    <title>Arcade - Assistência Técnica</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Meu Primeiro Portfolio</title>
 </head>
-
 <body>
-
-    <header>
-        <nav>
-            <div class="logo">
-                <a href="index.html">
-                    <picture>
-                        <source media="(max-width: 650px)" srcset="assets/LOGOPEQ.png">
-                        <source srcset="assets/LOGO.png">
-                        <img src="assets/LOGO.png" alt="Logo Arcade">
-                    </picture>
-                </a>
-            </div>
-            <ul class="menu">
-                <li><a href="index.html">Início</a></li>
-                <li><a href="#">Dicas de Manutenção</a></li>
-                <li><a href="#orca">Orçamento</a></li>
-                <li><a href="https://api.whatsapp.com/send?phone=55987654321&text=Ol%C3%A1!%20Tudo%20bem%3F">Contato</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section>
-            <article class="topo">
-                <h1>Arcade - Assistência Técnica de Games e Informática</h1>
-                <hr>
-                <div>
-                    <img src="assets/img1.jpg" alt="">
-                    <p>A Arcade possui vasta experiência em consertos de todos os tipos de consoles, controles e
-                        acessórios para vídeo-games. Optamos por oferecer um serviço com agilidade, porém, prezando
-                        sempre pela qualidade em cada processo. Entre em contato conosco e receba um orçamento sem
-                        compromisso. </p>
-                    <br>
-                    <p><strong>Temos certeza de que podemos te ajudar!</strong></p>
+    <div class="container">
+        <div class="lado-esq">
+            
+            <div class="textoPerfil">
+                <div class="fotoPerfil">
+                    <img src="./assets/imagens/rosto.png" alt="Foto do Perfil">
                 </div>
-            </article>
-            <article>
-                <h2>Conheça nossos serviços de consertos:</h2>
-                <hr>
-                <div class="quadros">
-                    <div>
-                        <p>Linha Playstation</p>
-                        <a href="#"><img src="assets/modelo1.jpg" /></a>
-                    </div>
-                    <div>
-                        <p>Linha Xbox</p>
-                        <a href="#"><img src="assets/modelo2.jpg" /></a>
-                    </div>
-                    <div>
-                        <p>Outros Modelos</p>
-                        <a href="#"><img src="assets/modelo3.jpg" /></a>
-                    </div>
-                </div>
-            </article>
-            <article>
-                <h2 id="orca">Faça seu orçamento:</h2>
-                <hr>
-            </article>
-        </section>
-        <section class="orcamento">
-            <div class="formContainer">
-                <h2>ENTRE EM CONTATO PARA RECEBER UM ORÇAMENTO SEM COMPROMISSO</h2>
-                <br>
-                <form action="#">
-                    <input type="text" name="name" id="name" placeholder="Nome">
-                    <input type="email" name="email" id="email" placeholder="E-mail">
-                    <textarea name="mensagem" cols="45" rows="10" placeholder="Descreva o problema"></textarea>
-                    <input type="submit" value="SOLICITAR ORÇAMENTO">
-                </form>
+                <h2>Carol Gonzaga<br><span>Desenvolvedora Web</span></h2>
             </div>
-        </section>
-    </main>
+            
+            <div class="infoContato">
+                <h3 class="titulo">Contato</h3>
+                <ul>
+                    <li>
+                        <span class="icone"><i class="fa-solid fa-phone"></i></span>
+                        <span class="texto">11 953163740</span>
+                    </li>
+                    <li>
+                        <span class="icone"><i class="fa-regular fa-envelope"></i></span>
+                        <span class="texto">dev.carolgonzaga@gmail.com</span>
+                    </li>
+                    <li>
+                        <span class="icone"><i class="fa-brands fa-github"></i></span>
+                        <span class="texto">anacquesta</span>
+                    </li>
+                    <li>
+                        <span class="icone"><i class="fa-brands fa-linkedin-in"></i></span>
+                        <span class="texto">anacarolgonzaga</a></span>
+                    </li>
+                    <li>
+                        <span class="icone"><i class="fa-sharp fa-solid fa-location-dot"></i></span>
+                        <span class="texto">São Paulo, Brasil</span>
+                    </li>
+                </ul>
+            </div>
 
-    <footer>
-        <div class="container-foot">
-            <div class="logo-foot">
-                <a href="index.html"><img class="logo" src="assets/LOGO.png" alt="Logo"></a>
+            <div class="infoContato formacao">
+                <h3 class="titulo">Formação</h3>
+                <ul>
+                    <li>
+                        <h5>2022 - 2024</h5>
+                        <h4>Tecnologia em Sistemas para Internet</h4>
+                        <h4>Centro Universitário Senac</h4>
+                    </li>
+                    <li>
+                        <h5>2008 - 2008</h5>
+                        <h4>Montagem, configuração e manutenção
+                            de micros</h4>
+                        <h4>Senai “Humberto Reis Costa”</h4>
+                    </li>
+                    <li>
+                        <h5>2004 - 2005</h5>
+                        <h4>Técnico de Computação Jr.</h4>
+                        <h4>Cedaspy</h4>
+                    </li>
+                </ul>
             </div>
-            <div class="adress-foot">
-                <h3>Endereço</h3>
-                <p>Rua Abecede, 123</p>
-                <p>São Paulo / SP</p>
-                <p>+55 11 00000-0000</p>
+
+            <div class="infoContato idiomas">
+                <h3 class="titulo">Idiomas</h3>
+                <ul>
+                    <li>
+                        <span class="texto">Português</span>
+                        <div class="porcentagem">
+                            <span class="pecasCheias">
+                                <i class="fa-solid fa-wrench"></i>
+                                <i class="fa-solid fa-wrench"></i>
+                                <i class="fa-solid fa-wrench"></i>
+                                <i class="fa-solid fa-wrench"></i>
+                                <i class="fa-solid fa-wrench"></i>
+                                <i class="fa-solid fa-wrench"></i>
+                                <i class="fa-solid fa-wrench"></i>
+                                <i class="fa-solid fa-wrench"></i>
+                                <i class="fa-solid fa-wrench"></i>
+                                <i class="fa-solid fa-wrench"></i>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="texto">Inglês</span>
+                        <div class="porcentagem">
+                            <span class="pecasCheias">
+                                <i class="fa-solid fa-wrench"></i>
+                                <i class="fa-solid fa-wrench"></i>
+                                <i class="fa-solid fa-wrench"></i>
+                                <i class="fa-solid fa-wrench"></i>
+                                <i class="fa-solid fa-wrench"></i>
+                            </span>
+                            <span class="pecasVazias">
+                                <i class="fa-solid fa-wrench"></i>
+                                <i class="fa-solid fa-wrench"></i>
+                                <i class="fa-solid fa-wrench"></i>
+                                <i class="fa-solid fa-wrench"></i>
+                                <i class="fa-solid fa-wrench"></i>
+                            </span>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <div class="hours-foot">
-                <h3>Horário de Atendimento</h3>
-                <p>Seg. à Sex. das 09h às 18h</p>
-                <p>Sáb. das 09h às 13h</p>
-                <p>Telefone (00) 98765-4321</p>
-            </div>
-            <div class="media">
-                <a href="#"><img class="social" src="assets/facebook.png" alt=""></a>
-                <a href="#"><img class="social" src="assets/instagram.png" alt=""></a>
-                <a href="#"><img class="social" src="assets/twitter.png" alt=""></a>
-                <a href="#"><img class="social" src="assets/youtube.png" alt=""></a>
+
+            <div class="infoContato interesses">
+                <h3 class="titulo">Interesses</h3>
+                <ul>
+                    <li><span class="icone"><i class="fa-solid fa-gamepad"></i></span> Jogos</li>
+                    <li><span class="icone"><i class="fa-solid fa-dice"></i></span> Tabuleiros</li>
+                    <li><span class="icone"><i class="fa-solid fa-video"></i></i></span> Filmes</li>
+                    <li><span class="icone"><i class="fa-solid fa-hand-spock"></i></span> Colecionáveis</li>
+                </ul>
             </div>
         </div>
-        <p class="rodape">Copyright© 2021 Carol Gonzaga - Direitos Reservados.</p>
-    </footer>
-</body>
+        
+        <div class="lado-dir">
+            <div class="sobre">
+                <h2 class="titulo2">Profile</h2>
+                <p>Iniciei minha trajetória profissional em 2005, já na versão 1.0 e mesmo não atuando diretamente na área de T.I., me profissionalizei em diversos cursos para dar um upgrade. Sendo extremamente curiosa, o que considero um código fundamental na minha programação, aprimorei os meus projetos e conhecimentos e ainda me especializei em achar soluções de uma maneira mais assertiva. E assim como todo programa precisa de começo, meio e fim, fecho essa “chave” dizendo que gosto de ser desafiada, qualquer zona de conforto não é compatível com o meu software. O que acha de você e sua empresa me ajudarem a chegar à versão 2.0?</p>
+            </div>
+            <div class="sobre">
+                <h2 class="titulo2">Experiência</h2>
+                <div class="box">
+                    <div class="ano_exp">
+                        <h5>2018 - 2023</h5>
+                        <h5>Lima Limão Baby Store</h5>
+                    </div>
+                    <div class="texto">
+                        <h4>Sócio-Diretor</h4>
+                        <p>Como responsável por diversas áreas da empresa, adquiri experiência em controle de pedidos, emissão de notas fiscais, controle de estoque, atendimento ao consumidor, gestão de compras, além do gerenciamento do site e das redes sociais.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="ano_exp">
+                        <h5>2009 - 2011</h5>
+                        <h5>União Pereira Assist. Técnica</h5>
+                    </div>
+                    <div class="texto">
+                        <h4>Auxiliar de Loja</h4>
+                        <p>Durante meu período de atuação na empresa de suporte técnico, fui responsável pelo atendimento ao cliente, identificação de problemas em computadores e realização de orçamentos. Minhas habilidades técnicas me permitiram diagnosticar e reparar diversos problemas de hardware e software em computadores, além de prestar um atendimento eficiente e cordial aos clientes.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="ano_exp">
+                        <h5>2008 - 2009</h5>
+                        <h5>Emcop Equipamentos</h5>
+                    </div>
+                    <div class="texto">
+                        <h4>Auxiliar Administrativo de Vendas</h4>
+                        <p>Na indústria de cozinhas profissionais, fui responsável pela administração financeira e controle de pedidos, incluindo ajustes de orçamento.</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="ano_exp">
+                        <h5>2005 - 2007</h5>
+                        <h5>Notilog do Brasil</h5>
+                    </div>
+                    <div class="texto">
+                        <h4>Analista de Midia</h4>
+                        <p>Já na empresa de assessoria de imprensa, fui responsável pela análise de jornais e revistas online em busca de notícias que mencionassem as empresas parceiras. Realizei um acompanhamento constante dos veículos de comunicação relevantes para a empresa, registrando todas as notícias encontradas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="sobre habilidades">
+                <h2 class="titulo2">Habilidades</h2>
+                <div class="box">
+                    <h4>HTML</h4>
+                    <div class="porcentagem">
+                        <span class="pecasCheias">
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                        </span>
+                        <span class="pecasVazias">
+                            <i class="fa-solid fa-wrench"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>CSS</h4>
+                    <div class="porcentagem">
+                        <span class="pecasCheias">
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                        </span>
+                        <span class="pecasVazias">
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
 
+                        </span>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>JavaScript</h4>
+                    <div class="porcentagem">
+                        <span class="pecasCheias">
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                        </span>
+                        <span class="pecasVazias">
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Java</h4>
+                    <div class="porcentagem">
+                        <span class="pecasCheias">
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                        </span>
+                        <span class="pecasVazias">
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>PHP</h4>
+                    <div class="porcentagem">
+                        <span class="pecasCheias">
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                        </span>
+                        <span class="pecasVazias">
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="box">
+                    <h4>Hardware</h4>
+                    <div class="porcentagem">
+                        <span class="pecasCheias">
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                            <i class="fa-solid fa-wrench"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="direitos">Copyright© 2023 <a href="https://carolgonzaga.github.io/projeto-linkme/">Carol Gonzaga</a> - Direitos Reservados.</p>
+</body>
 </html>
